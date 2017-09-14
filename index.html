@@ -1,0 +1,21 @@
+<html>
+	<head>
+			<script type="text/javascript" src="code.js"></script>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<title> Menjač! </title>
+	</head>
+	<body>
+		<label for="checkbox_2">Uključi i Background color:</label>
+		<input id="checkbox_2" type="checkbox" checked>
+		<label for="checkbox_3">Dark Mode:</label>
+		<input id="checkbox_3" type="checkbox" checked onchange="mode(this.checked)">
+		<button id="stop" class="button_red" onclick="stop()">Stop!</button>
+
+		<p id="br_manji_od_500"></p>
+		<p id="br_veći_od_500"></p>
+
+		<table id="table">
+		</table>
+
+	</body>
+</html>
